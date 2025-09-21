@@ -1,5 +1,0 @@
-# to dwonload dependencies for the project:
-# npm i
-
-# to run the project:
-# npm run dev
