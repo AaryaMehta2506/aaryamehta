@@ -1,0 +1,42 @@
+# to dwonload dependencies for the project:
+# npm i
+
+# to run the project: 
+# npm run dev
+
+# to make the dist folder
+# npm run build
+
+# GitHub Pages expects already-built static files (HTML, CSS, JS). 
+# Right now, your live link is trying to load your React app but there’s no compiled JavaScript → result is a blank white screen.
+# So u need to creat dist folder in which ui, index, img, pdf files will be there 
+# npm run built
+# to live the link dont upload this directly dist folder, upload which files and folder are there under this dist folder 
+
+HOW TO UPLOAD ON GITHUB:
+go to settings
+than pages
+than in branch select main instead of none
+than click on save 
+wait for 2 to 3 minute to live the site
+
+
+FILES TO BE UPLOADED
+assets
+client
+server
+shared
+.gitignore
+AIML-avatar.png
+README.md
+Resume - Aarya Mehta.pdf
+components.json
+drizzle.config.ts
+index.html
+index.js
+package-lock.json
+package.json
+postcss.config.js
+tailwind.config.ts
+tsconfig.json
+vite.config.ts
